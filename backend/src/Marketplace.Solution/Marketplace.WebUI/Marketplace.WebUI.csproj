@@ -8,8 +8,8 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <_ContentIncludedByDefault Remove="wwwroot\js\site.js" />
-      <_ContentIncludedByDefault Remove="wwwroot\css\site.css" />
+        <_ContentIncludedByDefault Remove="wwwroot\js\site.js"/>
+        <_ContentIncludedByDefault Remove="wwwroot\css\site.css"/>
     </ItemGroup>
 
 </Project>
