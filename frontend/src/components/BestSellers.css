@@ -1,0 +1,28 @@
+/* src/components/BestSellers.css */
+
+.best-sellers-section {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.best-sellers-section h2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #333;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: left;
+}
+
+.product-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+/* Добавлено: стили для карточек товаров */
+.card {
+    width: 200px;  /* Установите желаемую ширину */
+    height: 300px;  /* Установите желаемую высоту */
+}

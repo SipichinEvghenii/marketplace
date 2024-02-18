@@ -1,0 +1,12 @@
+/* src/components/ProductList.css */
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px; /* Отступ между карточками */
+    padding: 16px; /* Отступ вокруг всего списка товаров */
+}
+
+.product-item {
+    flex: 1 1 calc(33.333% - 16px); /* Размер каждой карточки, 33.333% для 3 карточек в ряд, 16px - это gap */
+    max-width: 250px; /* Максимальная ширина для каждой карточки */
+}

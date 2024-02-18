@@ -1,0 +1,17 @@
+/* src/components/PopularProducts.css */
+
+.popular-products-section {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.popular-products-section h2 {
+    margin-bottom: 20px;
+}
+
+.product-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}

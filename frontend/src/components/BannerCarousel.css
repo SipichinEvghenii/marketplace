@@ -1,0 +1,13 @@
+/* src/components/BannerCarousel.css */
+
+.banner-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.carousel-item img {
+    height: 25vh;
+    object-fit: cover;
+    width: 100%;
+}
