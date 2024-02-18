@@ -5,12 +5,8 @@
       "PackagePath": "staticwebassets\\Marketplace.WebUI.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\hahadetka\\Desktop\\web lab\\marketplace\\backend\\src\\Marketplace.Solution\\Marketplace.WebUI\\wwwroot\\css\\bootstrap.min.css",
-      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
-    },
-    {
-      "Id": "C:\\Users\\hahadetka\\Desktop\\web lab\\marketplace\\backend\\src\\Marketplace.Solution\\Marketplace.WebUI\\wwwroot\\css\\style.css",
-      "PackagePath": "staticwebassets\\css\\style.css"
+      "Id": "C:\\Users\\hahadetka\\Desktop\\web lab\\marketplace\\backend\\src\\Marketplace.Solution\\Marketplace.WebUI\\wwwroot\\css\\style.min.css",
+      "PackagePath": "staticwebassets\\css\\style.min.css"
     },
     {
       "Id": "C:\\Users\\hahadetka\\Desktop\\web lab\\marketplace\\backend\\src\\Marketplace.Solution\\Marketplace.WebUI\\wwwroot\\favicon.ico",
@@ -143,6 +139,10 @@
     {
       "Id": "C:\\Users\\hahadetka\\Desktop\\web lab\\marketplace\\backend\\src\\Marketplace.Solution\\Marketplace.WebUI\\wwwroot\\js\\main.js",
       "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\hahadetka\\Desktop\\web lab\\marketplace\\backend\\src\\Marketplace.Solution\\Marketplace.WebUI\\wwwroot\\js\\main.min.js",
+      "PackagePath": "staticwebassets\\js\\main.min.js"
     },
     {
       "Id": "C:\\Users\\hahadetka\\Desktop\\web lab\\marketplace\\backend\\src\\Marketplace.Solution\\Marketplace.WebUI\\wwwroot\\lib\\easing\\easing.js",

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Marketplace.WebUI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+26439017e7e1123c041e071887f34526f2338c86")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4f1d18f5e73acbcc4bed713c1cebc9f82246845a")]
 [assembly: System.Reflection.AssemblyProductAttribute("Marketplace.WebUI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Marketplace.WebUI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
