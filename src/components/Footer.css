@@ -1,0 +1,62 @@
+.app-footer {
+    /*position: fixed;*/
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(238, 238, 238);
+    color: #333; /* Цвет текста элементов */
+    padding: 20px 0;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.footer-section h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    text-align: left;
+    color: #333; /* Цвет заголовков */
+}
+
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 8px;
+    text-align: left;
+}
+
+.footer-section ul li a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+    color: #ddd;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9rem;
+    background-color: #eee;
+    padding: 10px 0;
+}
+
+.footer-bottom p {
+    margin-top: 10px;
+    white-space: nowrap;
+}
