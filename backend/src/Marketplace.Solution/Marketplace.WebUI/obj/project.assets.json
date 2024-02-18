@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hahadetka\\Desktop\\web lab\\marketplace\\backend\\src\\Marketplace.Solution\\Marketplace.API\\Marketplace.API.csproj",
-      "projectName": "Marketplace.API",
-      "projectPath": "C:\\Users\\hahadetka\\Desktop\\web lab\\marketplace\\backend\\src\\Marketplace.Solution\\Marketplace.API\\Marketplace.API.csproj",
+      "projectUniqueName": "C:\\Users\\hahadetka\\Desktop\\web lab\\marketplace\\backend\\src\\Marketplace.Solution\\Marketplace.WebUI\\Marketplace.WebUI.csproj",
+      "projectName": "Marketplace.WebUI",
+      "projectPath": "C:\\Users\\hahadetka\\Desktop\\web lab\\marketplace\\backend\\src\\Marketplace.Solution\\Marketplace.WebUI\\Marketplace.WebUI.csproj",
       "packagesPath": "C:\\Users\\hahadetka\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hahadetka\\Desktop\\web lab\\marketplace\\backend\\src\\Marketplace.Solution\\Marketplace.API\\obj\\",
+      "outputPath": "C:\\Users\\hahadetka\\Desktop\\web lab\\marketplace\\backend\\src\\Marketplace.Solution\\Marketplace.WebUI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\hahadetka\\AppData\\Roaming\\NuGet\\NuGet.Config",
