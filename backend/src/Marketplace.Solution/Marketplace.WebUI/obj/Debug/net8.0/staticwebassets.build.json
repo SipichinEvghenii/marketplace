@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ZJ1JCRN5sRDLBp5W2EHbi5YCx5R9Zo2Wfce4CFW3JA4=",
+  "Hash": "Wczso0iddDgTMvZOgpsjzPNv+f2lJeJdYou5CYsoZzY=",
   "Source": "Marketplace.WebUI",
   "BasePath": "_content/Marketplace.WebUI",
   "Mode": "Default",
@@ -53,6 +53,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\hahadetka\\Desktop\\web lab\\marketplace\\backend\\src\\Marketplace.Solution\\Marketplace.WebUI\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Marketplace.WebUI.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\hahadetka\\Desktop\\web lab\\marketplace\\backend\\src\\Marketplace.Solution\\Marketplace.WebUI\\wwwroot\\css\\bootstrap.min.css",
+      "SourceId": "Marketplace.WebUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\hahadetka\\Desktop\\web lab\\marketplace\\backend\\src\\Marketplace.Solution\\Marketplace.WebUI\\wwwroot\\",
+      "BasePath": "_content/Marketplace.WebUI",
+      "RelativePath": "css/bootstrap.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\bootstrap.min.css"
     },
     {
       "Identity": "C:\\Users\\hahadetka\\Desktop\\web lab\\marketplace\\backend\\src\\Marketplace.Solution\\Marketplace.WebUI\\wwwroot\\css\\style.min.css",
