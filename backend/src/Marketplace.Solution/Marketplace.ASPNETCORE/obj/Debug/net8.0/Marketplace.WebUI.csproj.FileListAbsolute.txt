@@ -1,0 +1,60 @@
+C:\Users\hahadetka\Desktop\web lab\marketplace\backend\src\Marketplace.Solution\Marketplace.WebUI\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\hahadetka\Desktop\web lab\marketplace\backend\src\Marketplace.Solution\Marketplace.WebUI\bin\Debug\net8.0\appsettings.json
+C:\Users\hahadetka\Desktop\web lab\marketplace\backend\src\Marketplace.Solution\Marketplace.WebUI\bin\Debug\net8.0\Marketplace.WebUI.staticwebassets.runtime.json
+C:\Users\hahadetka\Desktop\web lab\marketplace\backend\src\Marketplace.Solution\Marketplace.WebUI\bin\Debug\net8.0\Marketplace.WebUI.exe
+C:\Users\hahadetka\Desktop\web lab\marketplace\backend\src\Marketplace.Solution\Marketplace.WebUI\bin\Debug\net8.0\Marketplace.WebUI.deps.json
+C:\Users\hahadetka\Desktop\web lab\marketplace\backend\src\Marketplace.Solution\Marketplace.WebUI\bin\Debug\net8.0\Marketplace.WebUI.runtimeconfig.json
+C:\Users\hahadetka\Desktop\web lab\marketplace\backend\src\Marketplace.Solution\Marketplace.WebUI\bin\Debug\net8.0\Marketplace.WebUI.dll
+C:\Users\hahadetka\Desktop\web lab\marketplace\backend\src\Marketplace.Solution\Marketplace.WebUI\bin\Debug\net8.0\Marketplace.WebUI.pdb
+C:\Users\hahadetka\Desktop\web lab\marketplace\backend\src\Marketplace.Solution\Marketplace.WebUI\obj\Debug\net8.0\Marketplace.WebUI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hahadetka\Desktop\web lab\marketplace\backend\src\Marketplace.Solution\Marketplace.WebUI\obj\Debug\net8.0\Marketplace.WebUI.AssemblyInfoInputs.cache
+C:\Users\hahadetka\Desktop\web lab\marketplace\backend\src\Marketplace.Solution\Marketplace.WebUI\obj\Debug\net8.0\Marketplace.WebUI.AssemblyInfo.cs
+C:\Users\hahadetka\Desktop\web lab\marketplace\backend\src\Marketplace.Solution\Marketplace.WebUI\obj\Debug\net8.0\Marketplace.WebUI.csproj.CoreCompileInputs.cache
+C:\Users\hahadetka\Desktop\web lab\marketplace\backend\src\Marketplace.Solution\Marketplace.WebUI\obj\Debug\net8.0\Marketplace.WebUI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\hahadetka\Desktop\web lab\marketplace\backend\src\Marketplace.Solution\Marketplace.WebUI\obj\Debug\net8.0\Marketplace.WebUI.RazorAssemblyInfo.cache
+C:\Users\hahadetka\Desktop\web lab\marketplace\backend\src\Marketplace.Solution\Marketplace.WebUI\obj\Debug\net8.0\Marketplace.WebUI.RazorAssemblyInfo.cs
+C:\Users\hahadetka\Desktop\web lab\marketplace\backend\src\Marketplace.Solution\Marketplace.WebUI\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\hahadetka\Desktop\web lab\marketplace\backend\src\Marketplace.Solution\Marketplace.WebUI\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\hahadetka\Desktop\web lab\marketplace\backend\src\Marketplace.Solution\Marketplace.WebUI\obj\Debug\net8.0\staticwebassets\msbuild.Marketplace.WebUI.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\hahadetka\Desktop\web lab\marketplace\backend\src\Marketplace.Solution\Marketplace.WebUI\obj\Debug\net8.0\staticwebassets\msbuild.build.Marketplace.WebUI.props
+C:\Users\hahadetka\Desktop\web lab\marketplace\backend\src\Marketplace.Solution\Marketplace.WebUI\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Marketplace.WebUI.props
+C:\Users\hahadetka\Desktop\web lab\marketplace\backend\src\Marketplace.Solution\Marketplace.WebUI\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Marketplace.WebUI.props
+C:\Users\hahadetka\Desktop\web lab\marketplace\backend\src\Marketplace.Solution\Marketplace.WebUI\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\hahadetka\Desktop\web lab\marketplace\backend\src\Marketplace.Solution\Marketplace.WebUI\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\hahadetka\Desktop\web lab\marketplace\backend\src\Marketplace.Solution\Marketplace.WebUI\obj\Debug\net8.0\scopedcss\bundle\Marketplace.WebUI.styles.css
+C:\Users\hahadetka\Desktop\web lab\marketplace\backend\src\Marketplace.Solution\Marketplace.WebUI\obj\Debug\net8.0\scopedcss\projectbundle\Marketplace.WebUI.bundle.scp.css
+C:\Users\hahadetka\Desktop\web lab\marketplace\backend\src\Marketplace.Solution\Marketplace.WebUI\obj\Debug\net8.0\Marketplace.WebUI.dll
+C:\Users\hahadetka\Desktop\web lab\marketplace\backend\src\Marketplace.Solution\Marketplace.WebUI\obj\Debug\net8.0\refint\Marketplace.WebUI.dll
+C:\Users\hahadetka\Desktop\web lab\marketplace\backend\src\Marketplace.Solution\Marketplace.WebUI\obj\Debug\net8.0\Marketplace.WebUI.pdb
+C:\Users\hahadetka\Desktop\web lab\marketplace\backend\src\Marketplace.Solution\Marketplace.WebUI\obj\Debug\net8.0\Marketplace.WebUI.genruntimeconfig.cache
+C:\Users\hahadetka\Desktop\web lab\marketplace\backend\src\Marketplace.Solution\Marketplace.WebUI\obj\Debug\net8.0\ref\Marketplace.WebUI.dll
+C:\Users\hahadetka\Desktop\projects\marketplace\backend\src\Marketplace.Solution\Marketplace.WebUI\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\hahadetka\Desktop\projects\marketplace\backend\src\Marketplace.Solution\Marketplace.WebUI\bin\Debug\net8.0\appsettings.json
+C:\Users\hahadetka\Desktop\projects\marketplace\backend\src\Marketplace.Solution\Marketplace.WebUI\bin\Debug\net8.0\Marketplace.WebUI.staticwebassets.runtime.json
+C:\Users\hahadetka\Desktop\projects\marketplace\backend\src\Marketplace.Solution\Marketplace.WebUI\bin\Debug\net8.0\Marketplace.WebUI.exe
+C:\Users\hahadetka\Desktop\projects\marketplace\backend\src\Marketplace.Solution\Marketplace.WebUI\bin\Debug\net8.0\Marketplace.WebUI.deps.json
+C:\Users\hahadetka\Desktop\projects\marketplace\backend\src\Marketplace.Solution\Marketplace.WebUI\bin\Debug\net8.0\Marketplace.WebUI.runtimeconfig.json
+C:\Users\hahadetka\Desktop\projects\marketplace\backend\src\Marketplace.Solution\Marketplace.WebUI\bin\Debug\net8.0\Marketplace.WebUI.dll
+C:\Users\hahadetka\Desktop\projects\marketplace\backend\src\Marketplace.Solution\Marketplace.WebUI\bin\Debug\net8.0\Marketplace.WebUI.pdb
+C:\Users\hahadetka\Desktop\projects\marketplace\backend\src\Marketplace.Solution\Marketplace.WebUI\obj\Debug\net8.0\Marketplace.WebUI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hahadetka\Desktop\projects\marketplace\backend\src\Marketplace.Solution\Marketplace.WebUI\obj\Debug\net8.0\Marketplace.WebUI.AssemblyInfoInputs.cache
+C:\Users\hahadetka\Desktop\projects\marketplace\backend\src\Marketplace.Solution\Marketplace.WebUI\obj\Debug\net8.0\Marketplace.WebUI.AssemblyInfo.cs
+C:\Users\hahadetka\Desktop\projects\marketplace\backend\src\Marketplace.Solution\Marketplace.WebUI\obj\Debug\net8.0\Marketplace.WebUI.csproj.CoreCompileInputs.cache
+C:\Users\hahadetka\Desktop\projects\marketplace\backend\src\Marketplace.Solution\Marketplace.WebUI\obj\Debug\net8.0\Marketplace.WebUI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\hahadetka\Desktop\projects\marketplace\backend\src\Marketplace.Solution\Marketplace.WebUI\obj\Debug\net8.0\Marketplace.WebUI.RazorAssemblyInfo.cache
+C:\Users\hahadetka\Desktop\projects\marketplace\backend\src\Marketplace.Solution\Marketplace.WebUI\obj\Debug\net8.0\Marketplace.WebUI.RazorAssemblyInfo.cs
+C:\Users\hahadetka\Desktop\projects\marketplace\backend\src\Marketplace.Solution\Marketplace.WebUI\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\hahadetka\Desktop\projects\marketplace\backend\src\Marketplace.Solution\Marketplace.WebUI\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\hahadetka\Desktop\projects\marketplace\backend\src\Marketplace.Solution\Marketplace.WebUI\obj\Debug\net8.0\staticwebassets\msbuild.Marketplace.WebUI.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\hahadetka\Desktop\projects\marketplace\backend\src\Marketplace.Solution\Marketplace.WebUI\obj\Debug\net8.0\staticwebassets\msbuild.build.Marketplace.WebUI.props
+C:\Users\hahadetka\Desktop\projects\marketplace\backend\src\Marketplace.Solution\Marketplace.WebUI\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Marketplace.WebUI.props
+C:\Users\hahadetka\Desktop\projects\marketplace\backend\src\Marketplace.Solution\Marketplace.WebUI\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Marketplace.WebUI.props
+C:\Users\hahadetka\Desktop\projects\marketplace\backend\src\Marketplace.Solution\Marketplace.WebUI\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\hahadetka\Desktop\projects\marketplace\backend\src\Marketplace.Solution\Marketplace.WebUI\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\hahadetka\Desktop\projects\marketplace\backend\src\Marketplace.Solution\Marketplace.WebUI\obj\Debug\net8.0\scopedcss\bundle\Marketplace.WebUI.styles.css
+C:\Users\hahadetka\Desktop\projects\marketplace\backend\src\Marketplace.Solution\Marketplace.WebUI\obj\Debug\net8.0\scopedcss\projectbundle\Marketplace.WebUI.bundle.scp.css
+C:\Users\hahadetka\Desktop\projects\marketplace\backend\src\Marketplace.Solution\Marketplace.WebUI\obj\Debug\net8.0\Marketplace.WebUI.dll
+C:\Users\hahadetka\Desktop\projects\marketplace\backend\src\Marketplace.Solution\Marketplace.WebUI\obj\Debug\net8.0\refint\Marketplace.WebUI.dll
+C:\Users\hahadetka\Desktop\projects\marketplace\backend\src\Marketplace.Solution\Marketplace.WebUI\obj\Debug\net8.0\Marketplace.WebUI.pdb
+C:\Users\hahadetka\Desktop\projects\marketplace\backend\src\Marketplace.Solution\Marketplace.WebUI\obj\Debug\net8.0\Marketplace.WebUI.genruntimeconfig.cache
+C:\Users\hahadetka\Desktop\projects\marketplace\backend\src\Marketplace.Solution\Marketplace.WebUI\obj\Debug\net8.0\ref\Marketplace.WebUI.dll
