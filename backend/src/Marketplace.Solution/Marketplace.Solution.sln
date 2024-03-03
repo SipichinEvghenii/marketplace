@@ -1,8 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Marketplace.ASPNETCORE", "Marketplace.ASPNETCORE\Marketplace.ASPNETCORE.csproj", "{FC48C1EC-230B-4636-ABFE-CE5474D7B6C2}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Marketplace.ASPNETMVCFRAMEWORK", "Marketplace.ASPNETMVCFRAMEWORK\Marketplace.ASPNETMVCFRAMEWORK.csproj", "{926C6D55-481C-44CF-8A28-6D0413A04691}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Marketplace.Web", "Marketplace.Web\Marketplace.Web.csproj", "{926C6D55-481C-44CF-8A28-6D0413A04691}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
