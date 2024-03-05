@@ -6,10 +6,10 @@ namespace Marketplace.Infrastructure.Repositories
 {
     public interface IOrderRepository
     {
-        Task<List<Order>> GetAllOrders();
-        Task<Order> GetOrderById(string id);
-        Task<Order> UpdateOrderAsync(Order order);
-        Task DeleteOrderAsync(string id);
-        Task<Order> CreateOrderAsync(Order order);
+        List<Order> GetAllOrders();
+        Order GetOrderById(string id);
+        Order UpdateOrder(Order order);
+        void DeleteOrder(string id);
+        Order CreateOrder(Order order);
     }
 }

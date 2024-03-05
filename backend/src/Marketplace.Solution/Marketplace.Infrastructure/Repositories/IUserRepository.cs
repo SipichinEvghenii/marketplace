@@ -6,14 +6,14 @@ namespace Marketplace.Infrastructure.Repositories
 {
     public interface IUserRepository
     {
-        Task<List<User>> GetAllUsers();
-        Task<List<Role>> GetAllRoles();
-        Task<User> GetUserByEmailAsync(string email);
-        Task<User> GetUserByIdAsync(string id);
-        Task AddAsync(User user);
-        Task<Role> GetRoleByName(string roleName);
-        Task<string> AddRole(string userRole);
-        Task<User> UpdateUserAsync(User user);
-        Task DeleteUserAsync(string id);
+        List<User> GetAllUsers();
+        List<Role> GetAllRoles();
+        User GetUserByEmail(string email);
+        User GetUserById(string id);
+        void AddUser(User user);
+        Role GetRoleByName(string roleName);
+        string AddRole(string userRole);
+        void UpdateUser(User user);
+        void DeleteUser(string id);
     }
 }
