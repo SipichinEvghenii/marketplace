@@ -1,0 +1,58 @@
+@model IEnumerable<Marketplace.Domain.Entities.User>
+
+@{
+    ViewData["Title"] = "Page";
+    Layout = "../Shared/_Layout.cshtml";
+}
+
+<style>
+    .ght47 {
+        margin-top: 10%;
+    }
+    
+    .table {
+        margin-bottom: 30%;
+    }
+</style>
+
+<div class="container p-3 ght47">
+    <div class="row pt-4">
+        <div class="col-6">
+            <h2 class="text-primary">Users List</h2>
+        </div>
+        <div class="col-6 text-end">
+            <a asp-controller="User" asp-action="Create" class="btn btn-primary"> <i class="bi bi-file-earmark-plus-fill"></i> Add new user</a>
+        </div>
+        <br/>
+    </div>
+
+    <table class="table table-bordered table-striped" style="width: 100%; margin-top: 20px">
+        <thead>
+        <tr>
+            <th>User Id</th>
+            <th>User Role Name</th>
+            <th>User Role Id</th>
+            <th>User Email</th>
+            <th></th>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var order in Model)
+        {
+            <tr>
+                <td>@order.UserId</td>
+                <td>@order.Role.Name</td>
+                <td>@order.Role.RoleId</td>
+                <td>@order.Email</td>
+                <td>
+                    <div class="w-75 btn-group" role="group">
+                        <a asp-action="Delete" asp-route-id="@order.UserId" class="btn btn-danger">
+                            <i class="bi bi-trash-fill"></i> Delete
+                        </a>
+                    </div>
+                </td>
+            </tr>
+        }
+        </tbody>
+    </table>
+</div>
