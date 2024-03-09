@@ -1,0 +1,36 @@
+@model Marketplace.Domain.Entities.Order
+
+@{
+    ViewBag.Title = "Edit";
+    Layout = "_Layout";
+}
+
+<style>
+    .table {
+        margin-bottom: 20%;
+        margin-top: 20%;
+    }
+</style>
+
+<h2>Edit</h2>
+
+<form asp-action="Edit" class="table">
+    <div class="form-group">
+        <input type="hidden" asp-for="OrderId"/>
+        <label asp-for="OrderDate"></label>
+        <input asp-for="OrderDate" class="form-control"/>
+    </div>
+    <div class="form-group">
+        <label asp-for="TotalPrice"></label>
+        <input asp-for="TotalPrice" class="form-control"/>
+    </div>
+    <div class="form-group">
+        <label asp-for="Status"></label>
+        <input asp-for="Status" class="form-control"/>
+    </div>
+    <div class="form-group">
+        <label asp-for="UserId"></label>
+        <input asp-for="UserId" class="form-control"/>
+    </div>
+    <button type="submit" class="btn btn-primary">Save</button>
+</form>
