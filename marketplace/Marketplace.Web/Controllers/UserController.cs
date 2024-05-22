@@ -2,6 +2,7 @@ using System.Data.Entity.Infrastructure;
 using System.Linq;
 using System.Web.Mvc;
 using Marketplace.Application.Interfaces;
+using Marketplace.Application.Services;
 using Marketplace.Domain.Entities;
 using Marketplace.Infrastructure.Repositories;
 
@@ -12,19 +13,10 @@ namespace Marketplace.Web.Controllers
     /// </summary>
     public class UserController : Controller
     {
-        private readonly IAuthService _authService;
-        private readonly IUserRepository _userRepository;
-
-        /// <summary>
-        /// Инициализирует новый экземпляр класса UserController.
-        /// </summary>
-        /// <param name="userRepository">Репозиторий пользователей.</param>
-        /// <param name="authService">Сервис аутентификации.</param>
-        public UserController(IUserRepository userRepository, IAuthService authService)
-        {
-            _userRepository = userRepository;
-            _authService = authService;
-        }
+        private static readonly MarketplaceContext _context = new MarketplaceContext();
+        private static readonly IUserRepository _userRepository = new UserRepository(_context);
+        private static readonly IPasswordHasher _passwordHasher = new PasswordHasher();
+        private readonly IAuthService _authService = new AuthService(_userRepository, _passwordHasher);
 
         /// <summary>
         /// Отображает список всех пользователей.

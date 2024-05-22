@@ -5,7 +5,7 @@ using Marketplace.Domain.Entities;
 public class MarketplaceContext : DbContext
 {
     public MarketplaceContext()
-        : base("name=postgresql") // Specify the name of the connection string
+        : base("name=DefaultConnection") // Specify the name of the connection string
     {
     }
 

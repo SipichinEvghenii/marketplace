@@ -6,8 +6,10 @@ using System.Web;
 using System.Web.Mvc;
 using System.Web.Security;
 using Marketplace.Application.Interfaces;
+using Marketplace.Application.Services;
 using Marketplace.Domain.Entities;
 using Marketplace.Domain.ViewModels;
+using Marketplace.Infrastructure.Repositories;
 
 namespace Marketplace.Web.Controllers
 {
@@ -16,17 +18,10 @@ namespace Marketplace.Web.Controllers
     /// </summary>
     public class AccountController : Controller
     {
-        private readonly IAuthService _authService;
-        private readonly IPasswordHasher _passwordHasher;
-
-        /// <summary>
-        /// Инициализирует новый экземпляр класса <see cref="AccountController"/>.
-        /// </summary>
-        public AccountController(IAuthService authService, IPasswordHasher passwordHasher)
-        {
-            _authService = authService;
-            _passwordHasher = passwordHasher;
-        }
+        private static readonly MarketplaceContext _context = new MarketplaceContext();
+        private static readonly IPasswordHasher _passwordHasher = new PasswordHasher();
+        private static readonly IUserRepository _userRepository = new UserRepository(_context);
+        private readonly IAuthService _authService = new AuthService(_userRepository, _passwordHasher);
 
         /// <summary>
         /// Возвращает представление для регистрации нового пользователя.
@@ -104,7 +99,6 @@ namespace Marketplace.Web.Controllers
             var cookie = new HttpCookie(FormsAuthentication.FormsCookieName, encryptedTicket);
             Response.Cookies.Add(cookie);
         }
-
 
         /// <summary>
         /// Выходит пользователя из системы.

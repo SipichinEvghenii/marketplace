@@ -8,14 +8,9 @@ namespace Marketplace.Web.Controllers
 {
     public class OrderController : Controller
     {
-        private readonly IOrderRepository _orderRepository;
-        private readonly IUserRepository _userRepository;
-
-        public OrderController(IOrderRepository orderRepository, IUserRepository userRepository)
-        {
-            _orderRepository = orderRepository;
-            _userRepository = userRepository;
-        }
+        private static readonly MarketplaceContext _context = new MarketplaceContext();
+        private static readonly IUserRepository _userRepository = new UserRepository(_context);
+        private readonly IOrderRepository _orderRepository = new OrdersRepository(_context);
 
         // Отображает список всех заказов
         public ActionResult Index()

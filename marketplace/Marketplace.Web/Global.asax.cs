@@ -16,20 +16,16 @@ namespace Marketplace.Web
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
-
-            AutofacConfig.Configure(); // Инициализация Autofac
         }
         
-        protected void Application_AuthenticateRequest(Object sender, EventArgs e)
+        protected void Application_PostAuthenticateRequest(Object sender, EventArgs e)
         {
-            if (Request.IsAuthenticated)
-            {
-                var cookie = HttpContext.Current.Request.Cookies[FormsAuthentication.FormsCookieName];
-                var ticket = FormsAuthentication.Decrypt(cookie.Value);
-                var identity = new FormsIdentity(ticket);
-                var principal = new GenericPrincipal(identity, null);
-                HttpContext.Current.User = principal;
-            }
+            var authCookie = Context.Request.Cookies[FormsAuthentication.FormsCookieName];
+            if (authCookie == null) return;
+            FormsAuthenticationTicket authTicket = FormsAuthentication.Decrypt(authCookie.Value);
+            if (authTicket == null || authTicket.Expired) return;
+            var roles = authTicket.UserData.Split(',');
+            HttpContext.Current.User = new GenericPrincipal(new FormsIdentity(authTicket), roles);
         }
     }
 }
